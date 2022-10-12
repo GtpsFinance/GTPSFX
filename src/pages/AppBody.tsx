@@ -3,12 +3,12 @@ import styled from 'styled-components'
 
 export const BodyWrapper = styled.div`
   position: relative;
-  max-width: 420px;
+  max-width: 600px;
   width: 100%;
   background: ${({ theme }) => theme.bg1};
   box-shadow: none;
-  border-radius: 30px;
-  /* padding: 1rem; */
+  border-radius: 500px;
+  /* padding: 0rem; */
 `
 
 /**
