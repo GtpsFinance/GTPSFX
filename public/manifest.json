@@ -1,5 +1,5 @@
 {
-  "background_color": "#000",
+  "background_color": "#0D0BB1",
   "display": "standalone",
   "homepage_url": "https://fatex.io",
   "icons": [
@@ -11,7 +11,7 @@
     }
   ],
   "orientation": "portrait",
-  "name": "FATExFi",
+  "name": "FATExFi7",
   "short_name": "FATExFi",
   "start_url": ".",
   "theme_color": "#fff"
