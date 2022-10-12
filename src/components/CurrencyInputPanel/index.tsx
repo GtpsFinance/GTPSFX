@@ -78,14 +78,14 @@ const InputPanel = styled.div<{ hideInput?: boolean }>`
   ${({ theme }) => theme.flexColumnNoWrap}
   position: relative;
   border-radius: ${({ hideInput }) => (hideInput ? '8px' : '10px')};
-  background-color: ${({ theme }) => theme.bg2};
+  background-color: rgb(13 11 177);
   z-index: 1;
 `
 
 const Container = styled.div<{ hideInput: boolean }>`
   border-radius: ${({ hideInput }) => (hideInput ? '8px' : '10px')};
   border: none;
-  background-color: ${({ theme }) => theme.text1};
+  background-color: rgb(0 0 0);
 `
 
 const StyledTokenName = styled.span<{ active?: boolean }>`
