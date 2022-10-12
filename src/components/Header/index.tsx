@@ -576,7 +576,7 @@ export default function Header() {
       </Modal>
       <HeaderRow>
         <Title href=".">
-          FATEx<span>Fi</span>
+          GTPS<span>FX</span>
         </Title>
         <MobileHeader>
           <HeaderLinks>
@@ -592,7 +592,7 @@ export default function Header() {
                   pathname.startsWith('/find')
                 }
               >
-                Depository
+                Liquidity
               </StyledNavLink>
               <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
                 {t('swap')}
@@ -625,7 +625,7 @@ export default function Header() {
                 pathname.startsWith('/find')
               }
             >
-              Depository
+              Liquidity
             </StyledNavLink>
             <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
               {t('swap')}
