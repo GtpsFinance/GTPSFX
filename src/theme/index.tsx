@@ -44,12 +44,12 @@ export function defaultColors(darkMode: boolean): Colors {
     black,
 
     // text
-    text1: darkMode ? '#FFFFFF' : '#000000',
+    text1: darkMode ? '#FFFFFF' : '#FFFFFF',
     text2: darkMode ? '#C3C5CB' : '#FFFFFF',
     text3: darkMode ? '#6C7284' : '#888D9B',
     text4: darkMode ? '#FFFFFF' : '#C3C5CB',
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
-    text6: darkMode ? '#000000' : '#FFFFFF',
+    text6: darkMode ? '#FFFFFF' : '#FFFFFF',
 
     // backgrounds / greys
     bg1: darkMode ? '#0DOBB1' : '#0D0BB1',
@@ -106,12 +106,12 @@ export function viperColors(darkMode: boolean): Colors {
     black,
 
     // text
-    text1: darkMode ? '#FFFFFF' : '#000000',
+    text1: darkMode ? '#FFFFFF' : '#FFFFFF',
     text2: darkMode ? '#C3C5CB' : '#FFFFFF',
     text3: darkMode ? '#6C7284' : '#888D9B',
     text4: darkMode ? '#FFFFFF' : '#C3C5CB',
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
-    text6: darkMode ? '#000000' : '#FFFFFF',
+    text6: darkMode ? '#FFFFFF' : '#FFFFFF',
 
     // backgrounds / greys
     bg1: darkMode ? '#000000' : '#0D0BB1',
