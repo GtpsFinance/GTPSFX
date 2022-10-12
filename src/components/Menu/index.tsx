@@ -205,55 +205,55 @@ export default function Menu() {
     <>
       {/* https://github.com/DefinitelyTyped/DefinitelyTyped/issues/30451*/}
       <StyledMenuDesktop ref={node as any} isStaking={isStaking}>
-        <MenuItem id="link" href={'https://fatex.io'}>
-          FATEx.io
+        <MenuItem id="link" href={'https://gtpsfinance.org'}>
+          GtpsFinance.org
         </MenuItem>
-        <MenuItem id="link" href={'https://fatexdao.gitbook.io/fatexdao/fatexdao-dapps-and-tokens/fatexfi-faq'}>
-          V2 FAQ
+        <MenuItem id="link" href={'https://gtps.finance'}>
+          Gtps.Finance
         </MenuItem>
-        <MenuItem id="link" href={'https://github.com/FATEx-DAO'}>
+        <MenuItem id="link" href={'https://github.com/GtpsFinance'}>
           <Code size={14} />
           Code
         </MenuItem>
-        <MenuItem id="link" href={'https://linktr.ee/fatexdao'}>
+        <MenuItem id="link" href={'https://linktr.ee/GtpsFinance'}>
           <Check size={14} />
-          DAO Links
+          Gtps.Finance Links
         </MenuItem>
-        <MenuItem id="link" href={'https://fatexdao.gitbook.io/fatexdao'}>
+        <MenuItem id="link" href={'www.gtps.finance'}>
           <Book size={14} />
-          Green Paper
+          WhitePaper
         </MenuItem>
-        <MenuItem id="link" href="https://info.fatexfi.io">
+        <MenuItem id="link" href="https://gtps.finance">
           <PieChart size={14} />
           Analytics
         </MenuItem>
         <SocialLinks darkMode={darkMode}>
-          <a href={'https://www.twitter.com/FATExDAO'} target={'_blank'} rel="noreferrer">
+          <a href={'https://www.twitter.com/GtpsFinance'} target={'_blank'} rel="noreferrer">
             <img src={TwitterLogo} alt={'twitter logo'} />
           </a>
-          <a href={'https://www.reddit.com/r/FATEx'} target={'_blank'} rel="noreferrer">
+          <a href={'https://www.reddit.com/user/gtpsfinance'} target={'_blank'} rel="noreferrer">
             <img src={RedditLogo} alt={'reddit logo'} />
           </a>
-          <a href={'https://fatexdao.medium.com'} target={'_blank'} rel="noreferrer">
+          <a href={'https://medium.com/@welcome_73960'} target={'_blank'} rel="noreferrer">
             <img src={MediumLogo} alt={'medium logo'} />
           </a>
-          <a href={'https://t.me/FATExDAO'} target={'_blank'} rel="noreferrer">
+          <a href={'https://t.me/joinusatgtpsfinance'} target={'_blank'} rel="noreferrer">
             <img src={TelegramLogo} alt={'telegram logo'} />
           </a>
-          <a href={'https://discord.gg/uA6xrmsRfu'} target={'_blank'} rel="noreferrer">
+          <a href={'https://gtpsfinance.org'} target={'_blank'} rel="noreferrer">
             <img src={DiscordLogo} alt={'discord logo'} />
           </a>
-          <a href={'https://fatex.substack.com/'} target={'_blank'} rel="noreferrer">
+          <a href={'https://gtpsfinance.org/'} target={'_blank'} rel="noreferrer">
             <img
               style={{ filter: `brightness(100) ${darkMode ? '' : ' invert(1)'}` }}
               src={SubstackLogo}
               alt={'substack logo'}
             />
           </a>
-          <a href={'https://youtube.com/channel/UCvD3ItDf063xc_I4412wXCg'} target={'_blank'} rel="noreferrer">
+          <a href={'https://www.youtube.com/channel/UCTkUX__FNR-u9KZhzSvUNYg/'} target={'_blank'} rel="noreferrer">
             <img src={YouTubeLogo} alt={'youtube logo'} />
           </a>
-          <a href={'https://www.linkedin.com/company/fatexdao'} target={'_blank'} rel="noreferrer">
+          <a href={'https://www.linkedin.com/today/author/david-gomadza-4400ab87'} target={'_blank'} rel="noreferrer">
             <img src={LinkedinLogo} alt={'linkedin logo'} />
           </a>
         </SocialLinks>
@@ -265,55 +265,55 @@ export default function Menu() {
 
         {open && (
           <MenuFlyout isStaking={isStaking}>
-            <MenuItem id="link" href={'https://fatex.io'}>
-              FATExDAO.io
+            <MenuItem id="link" href={'https://gtps.finance.org'}>
+              Gtpsfinance.org
             </MenuItem>
-            <MenuItem id="link" href={'https://fatexdao.gitbook.io/fatexdao/fatexdao-dapps-and-tokens/fatexfi-faq'}>
-              V2 FAQ
+            <MenuItem id="link" href={'https://gtpsfinance.org'}>
+              GtpsFinance.org
             </MenuItem>
-            <MenuItem id="link" href={'https://github.com/FATEx-DAO'}>
+            <MenuItem id="link" href={'https://github.com/GtpsFinance'}>
               <Code size={14} />
               Code
             </MenuItem>
-            <MenuItem id="link" href={'https://linktr.ee/fatexdao'}>
+            <MenuItem id="link" href={'https://linktr.ee/GtpsFinance'}>
               <img src={Checkmark} />
-              DAO Links
+              GtpsFinance Links
             </MenuItem>
-            <MenuItem id="link" href={'https://fatexdao.gitbook.io/fatexdao'}>
+            <MenuItem id="link" href={'https://gtps.finance'}>
               <Book size={14} />
-              Green Paper
+              WhitePaper
             </MenuItem>
-            <MenuItem id="link" href="https://info.fatexfi.io">
+            <MenuItem id="link" href="https://gtps.finance">
               <PieChart size={14} />
               Analytics
             </MenuItem>
             <SocialLinks darkMode={darkMode}>
-              <a href={'https://www.twitter.com/FATExDAO'} target={'_blank'} rel="noreferrer">
+              <a href={'https://www.twitter.com/GtpsFinance'} target={'_blank'} rel="noreferrer">
                 <img src={TwitterLogo} alt={'twitter logo'} />
               </a>
-              <a href={'https://www.reddit.com/r/FATEx'} target={'_blank'} rel="noreferrer">
+              <a href={'https://www.reddit.com/user/GtpsFinance'} target={'_blank'} rel="noreferrer">
                 <img src={RedditLogo} alt={'reddit logo'} />
               </a>
-              <a href={'https://fatexdao.medium.com'} target={'_blank'} rel="noreferrer">
+              <a href={'https://medium.com/@welcome_73960'} target={'_blank'} rel="noreferrer">
                 <img src={MediumLogo} alt={'medium logo'} />
               </a>
-              <a href={'https://t.me/FATExDAO'} target={'_blank'} rel="noreferrer">
+              <a href={'https://t.me/joinusatgtpsfinance'} target={'_blank'} rel="noreferrer">
                 <img src={TelegramLogo} alt={'telegram logo'} />
               </a>
-              <a href={'https://discord.gg/uA6xrmsRfu'} target={'_blank'} rel="noreferrer">
+              <a href={'https://gtps.finance'} target={'_blank'} rel="noreferrer">
                 <img src={DiscordLogo} alt={'discord logo'} />
               </a>
-              <a href={'https://fatex.substack.com/'} target={'_blank'} rel="noreferrer">
+              <a href={'https://gtpsfinance.org/'} target={'_blank'} rel="noreferrer">
                 <img
                   style={{ filter: `brightness(100)${darkMode ? '' : ' invert(1)'}` }}
                   src={SubstackLogo}
                   alt={'substack logo'}
                 />
               </a>
-              <a href={'https://youtube.com/channel/UCvD3ItDf063xc_I4412wXCg'} target={'_blank'} rel="noreferrer">
+              <a href={'https://www.youtube.com/channel/UCTkUX__FNR-u9KZhzSvUNYg'} target={'_blank'} rel="noreferrer">
                 <img src={YouTubeLogo} alt={'youtube logo'} />
               </a>
-              <a href={'https://www.linkedin.com/company/fatexdao'} target={'_blank'} rel="noreferrer">
+              <a href={'https://www.linkedin.com/today/author/david-gomadza-4400ab87'} target={'_blank'} rel="noreferrer">
                 <img src={LinkedinLogo} alt={'linkedin logo'} />
               </a>
             </SocialLinks>
