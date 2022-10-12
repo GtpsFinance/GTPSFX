@@ -111,7 +111,7 @@ export default function PoolFinder() {
         </ButtonDropdownLight>
 
         <ColumnCenter>
-          <Plus size="16" color="#888D9B" />
+          <Plus size="16" color="#000000" />
         </ColumnCenter>
 
         <ButtonDropdownLight

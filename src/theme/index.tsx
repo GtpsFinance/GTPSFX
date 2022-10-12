@@ -46,7 +46,7 @@ export function defaultColors(darkMode: boolean): Colors {
     // text
     text1: darkMode ? '#FFFFFF' : '#FFFFFF',
     text2: darkMode ? '#C3C5CB' : '#FFFFFF',
-    text3: darkMode ? '#6C7284' : '#888D9B',
+    text3: darkMode ? '#6C7284' : '#000000',
     text4: darkMode ? '#FFFFFF' : '#C3C5CB',
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
     text6: darkMode ? '#000000' : '#FFFFFF',
@@ -108,7 +108,7 @@ export function viperColors(darkMode: boolean): Colors {
     // text
     text1: darkMode ? '#FFFFFF' : '#FFFFFF',
     text2: darkMode ? '#C3C5CB' : '#FFFFFF',
-    text3: darkMode ? '#6C7284' : '#888D9B',
+    text3: darkMode ? '#6C7284' : '#000000',
     text4: darkMode ? '#FFFFFF' : '#C3C5CB',
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
     text6: darkMode ? '#000000' : '#FFFFFF',
@@ -170,7 +170,7 @@ export function bscColors(darkMode: boolean): Colors {
     // text
     text1: darkMode ? '#FFFFFF' : '#000000',
     text2: darkMode ? '#C3C5CB' : '#FFFFFF',
-    text3: darkMode ? '#6C7284' : '#888D9B',
+    text3: darkMode ? '#6C7284' : '#000000',
     text4: darkMode ? '#FFFFFF' : '#C3C5CB',
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
     text6: darkMode ? '#000000' : '#FFFFFF',
@@ -232,7 +232,7 @@ export function harmonyColors(darkMode: boolean): Colors {
     // text
     text1: darkMode ? '#FFFFFF' : '#000000',
     text2: darkMode ? '#C3C5CB' : '#FFFFFF',
-    text3: darkMode ? '#6C7284' : '#888D9B',
+    text3: darkMode ? '#6C7284' : '#000000',
     text4: darkMode ? '#FFFFFF' : '#C3C5CB',
     text5: darkMode ? '#2C2F36' : '',
     text6: darkMode ? '#000000' : '#FFFFFF',
