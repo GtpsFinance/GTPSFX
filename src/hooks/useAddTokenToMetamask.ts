@@ -1,0 +1,42 @@
+import { getTokenFallbackLogoURL } from '../components/CurrencyLogo'
+import { wrappedCurrency } from 'utils/wrappedCurrency'
+import { Currency, Token } from '@fatex-dao/sdk'
+import { useCallback, useState } from 'react'
+import { useActiveWeb3React } from 'hooks'
+
+export default function useAddTokenToMetamask(
+  currencyToAdd: Currency | undefined
+): { addToken: () => void; success: boolean | undefined } {
+  const { library, chainId } = useActiveWeb3React()
+
+  const token: Token | undefined = wrappedCurrency(currencyToAdd, chainId)
+
+  const [success, setSuccess] = useState<boolean | undefined>()
+
+  const addToken = useCallback(() => {
+    if (library && library.provider.isMetaMask && library.provider.request && token) {
+      library.provider
+        .request({
+          method: 'wallet_watchAsset',
+          params: {
+            //@ts-ignore // need this for incorrect ethers provider type
+            type: 'ERC20',
+            options: {
+              address: token.address,
+              symbol: token.symbol,
+              decimals: token.decimals,
+              image: getTokenFallbackLogoURL(token)
+            }
+          }
+        })
+        .then(success => {
+          setSuccess(success)
+        })
+        .catch(() => setSuccess(false))
+    } else {
+      setSuccess(false)
+    }
+  }, [library, token])
+
+  return { addToken, success }
+}
