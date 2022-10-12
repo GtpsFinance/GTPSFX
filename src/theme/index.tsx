@@ -55,7 +55,7 @@ export function defaultColors(darkMode: boolean): Colors {
     bg1: darkMode ? '#0DOBB1' : '#0D0BB1',
     bg2: darkMode ? '#2C2F36' : '#F7F8FA',
     bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#FFFFFF' : '#CED0D9',
+    bg4: darkMode ? '#000000' : '#CED0D9',
     bg5: darkMode ? '#b7b7b7' : '#888D9B',
     bg6: darkMode ? '#0D0BB1' : '#0D0BB1',
 
@@ -179,7 +179,7 @@ export function bscColors(darkMode: boolean): Colors {
     bg1: darkMode ? '#000000' : '#FFFFFF',
     bg2: darkMode ? '#2C2F36' : '#F7F8FA',
     bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#FFFFFF' : '#CED0D9',
+    bg4: darkMode ? '#000000' : '#CED0D9',
     bg5: darkMode ? '#b7b7b7' : '#888D9B',
     bg6: darkMode ? '#FFFFFF' : '#000000',
 
@@ -241,7 +241,7 @@ export function harmonyColors(darkMode: boolean): Colors {
     bg1: darkMode ? '#000000' : '#FFFFFF',
     bg2: darkMode ? '#2C2F36' : '#F7F8FA',
     bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#FFFFFF' : '#CED0D9',
+    bg4: darkMode ? '#000000' : '#CED0D9',
     bg5: darkMode ? '#b7b7b7' : '#888D9B',
     bg6: darkMode ? '#FFFFFF' : '#000000',
 
