@@ -58,7 +58,7 @@ const HeaderFrame = styled.div`
 
 const HeaderControls = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: center;
   justify-self: flex-end;
 
