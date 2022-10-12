@@ -117,9 +117,9 @@ export function viperColors(darkMode: boolean): Colors {
     bg1: darkMode ? '#000000' : '#0D0BB1',
     bg2: darkMode ? '#2C2F36' : '#F7F8FA',
     bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#FFFFFF' : '#CED0D9',
+    bg4: darkMode ? '#000000' : '#CED0D9',
     bg5: darkMode ? '#b7b7b7' : '#888D9B',
-    bg6: darkMode ? '#FFFFFF' : '#000000',
+    bg6: darkMode ? '#000000' : '#000000',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
