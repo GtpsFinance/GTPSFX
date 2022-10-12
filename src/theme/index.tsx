@@ -49,11 +49,11 @@ export function defaultColors(darkMode: boolean): Colors {
     text3: darkMode ? '#6C7284' : '#888D9B',
     text4: darkMode ? '#FFFFFF' : '#C3C5CB',
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
-    text6: darkMode ? '#FFFFFF' : '#FFFFFF',
+    text6: darkMode ? '#000000' : '#FFFFFF',
 
     // backgrounds / greys
     bg1: darkMode ? '#0DOBB1' : '#0D0BB1',
-    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
+    bg2: darkMode ? '#2C2F36' : '#0D0BB1',
     bg3: darkMode ? '#40444F' : '#0D0BB1',
     bg4: darkMode ? '#000000' : '#CED0D9',
     bg5: darkMode ? '#b7b7b7' : '#888D9B',
@@ -111,11 +111,11 @@ export function viperColors(darkMode: boolean): Colors {
     text3: darkMode ? '#6C7284' : '#888D9B',
     text4: darkMode ? '#FFFFFF' : '#C3C5CB',
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
-    text6: darkMode ? '#FFFFFF' : '#FFFFFF',
+    text6: darkMode ? '#000000' : '#FFFFFF',
 
     // backgrounds / greys
     bg1: darkMode ? '#000000' : '#0D0BB1',
-    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
+    bg2: darkMode ? '#2C2F36' : '#0D0BB1',
     bg3: darkMode ? '#40444F' : '#0D0BB1',
     bg4: darkMode ? '#000000' : '#CED0D9',
     bg5: darkMode ? '#b7b7b7' : '#888D9B',
@@ -176,12 +176,12 @@ export function bscColors(darkMode: boolean): Colors {
     text6: darkMode ? '#000000' : '#FFFFFF',
 
     // backgrounds / greys
-    bg1: darkMode ? '#000000' : '#FFFFFF',
-    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
+    bg1: darkMode ? '#000000' : '#0D0BB1',
+    bg2: darkMode ? '#2C2F36' : '#0D0BB1',
     bg3: darkMode ? '#40444F' : '#0D0BB1',
     bg4: darkMode ? '#000000' : '#CED0D9',
     bg5: darkMode ? '#b7b7b7' : '#888D9B',
-    bg6: darkMode ? '#FFFFFF' : '#000000',
+    bg6: darkMode ? '#0D0BB1' : '#000000',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,42.5)' : 'rgba(0,0,0,0.3)',
@@ -238,12 +238,12 @@ export function harmonyColors(darkMode: boolean): Colors {
     text6: darkMode ? '#000000' : '#FFFFFF',
 
     // backgrounds / greys
-    bg1: darkMode ? '#000000' : '#FFFFFF',
-    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
+    bg1: darkMode ? '#000000' : '#000000',
+    bg2: darkMode ? '#2C2F36' : '#0D0BB1',
     bg3: darkMode ? '#40444F' : '#0D0BB1',
     bg4: darkMode ? '#000000' : '#CED0D9',
     bg5: darkMode ? '#b7b7b7' : '#888D9B',
-    bg6: darkMode ? '#FFFFFF' : '#000000',
+    bg6: darkMode ? '#000000' : '#000000',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
