@@ -313,7 +313,11 @@ export default function Menu() {
               <a href={'https://www.youtube.com/channel/UCTkUX__FNR-u9KZhzSvUNYg'} target={'_blank'} rel="noreferrer">
                 <img src={YouTubeLogo} alt={'youtube logo'} />
               </a>
-              <a href={'https://www.linkedin.com/today/author/david-gomadza-4400ab87'} target={'_blank'} rel="noreferrer">
+              <a
+                href={'https://www.linkedin.com/today/author/david-gomadza-4400ab87'}
+                target={'_blank'}
+                rel="noreferrer"
+              >
                 <img src={LinkedinLogo} alt={'linkedin logo'} />
               </a>
             </SocialLinks>
