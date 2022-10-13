@@ -189,12 +189,10 @@ export default function XFate({
               <CardNoise />
               <AutoColumn gap="md">
                 <RowBetween>
-                  <TYPE.white fontWeight={600}>{xFateSettings?.name} - DEX fee sharing</TYPE.white>
+                  <TYPE.white fontWeight={600}>{GFI} - </TYPE.white>
                 </RowBetween>
                 <RowBetween style={{ alignItems: 'baseline' }}>
-                  <TYPE.white fontSize={14}>
-                    Stake your {govToken?.symbol} tokens and earn 0.05% of all generated trading volume.
-                  </TYPE.white>
+                  <TYPE.white fontSize={14}>GFI is our reward token and a staking token.</TYPE.white>
                 </RowBetween>
                 <br />
               </AutoColumn>
@@ -232,14 +230,7 @@ export default function XFate({
             </AutoColumn>
           </StyledBottomCard>
         </BottomSection>
-
-        {account && adjustedStakedBalance && adjustedStakedBalance?.greaterThan('0') && (
-          <TYPE.main>
-            You have {adjustedStakedBalance?.toFixed(2, { groupSeparator: ',' })} {govToken?.symbol} tokens staked in
-            the&nbsp;{xFateSettings?.name}.
-          </TYPE.main>
-        )}
-
+        && (<TYPE.main>Check our main token Global Transaction Payment Solution.</TYPE.main>){'}'}
         {account && (!adjustedStakedBalance || adjustedStakedBalance?.equalTo('0')) && (
           <TYPE.main>
             You have {(govTokenBalance ?? new Fraction('0')).toFixed(2, { groupSeparator: ',' })} {govToken?.symbol}{' '}
@@ -269,14 +260,16 @@ export default function XFate({
               <span role="img" aria-label="wizard-icon" style={{ marginRight: '8px' }}>
                 💡
               </span>
-              <b>Important:</b> Your {govToken?.symbol} rewards will only be visible
+              <b> 
+                Global Transaction Payment Solution is to become the new single reserve global currency of the world.
               <br />
-              after you withdraw your x{govToken?.symbol} tokens from the pool.
+              It is to be the ultimate transaction payment solution.
               <br />
+              It will be a store of value as well.
               <br />
-              {xFateSettings?.name} does not have any withdrawal fees.
+              
               <br />
-              Tokens are also 100% unlocked when they are claimed.
+              
             </TYPE.main>
           </AutoColumn>
         </BlueCard>
