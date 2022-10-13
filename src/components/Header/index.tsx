@@ -326,9 +326,9 @@ export const StyledMenuButton = styled.button`
   padding: 0.15rem 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  border: 3px solid ${({ theme }) => theme.text1};
-  background-color: ${({ theme }) => theme.bg1};
-  color: ${({ theme }) => theme.text1};
+  border: 3px solid rgb(13 11 177);
+  background-color: rgb(13 11 177);
+  color: rgb(13 11 177);
   margin-right: 8px;
 
   :hover {
