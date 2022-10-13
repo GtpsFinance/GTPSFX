@@ -22,10 +22,8 @@ export default function SwapHeader() {
           <LightQuestionHelper
             text={
               <span>
-                NOTE: FATExFi is not a traditional &quot;dex&quot;. It is a liquidity pooling protocol for members to
-                contribute capital and join via acquiring the DAO governance token &quot;FATE,&quot; which allows a
-                member to participate in the development of web 3.0 FinTch applications i.e. FxD. Please read the V2 FAQ
-                for details.
+                NOTE: This is our new-era dex frontend design. Gtps.Finance leading the way to the next stage of
+                development. Simply click on SWITCH TO ETHEREUM to swap on ethereum.
               </span>
             }
             lightBulb={true}
