@@ -347,7 +347,7 @@ export const StyledMenuButton = styled.button`
   > * {
     stroke: ${({ theme }) => theme.text1};
   }
-  
+
   ${({ theme }) => theme.mediaWidth.upToMedium`
     width: fit-content;
     margin-left: 8px;
