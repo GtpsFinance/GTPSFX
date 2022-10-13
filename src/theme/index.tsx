@@ -408,7 +408,7 @@ body {
  
  #stats-popover > div {
   border-radius: 8px !important;
-  background-color: #40444f;
+  background-color: #0D0BB1;
   margin-top: 10px;
  }
 
