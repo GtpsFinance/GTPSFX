@@ -392,7 +392,7 @@ html, input, textarea, button {
 }
 @supports (font-variation-settings: normal) {
   html, input, textarea, button {
-    font-family: 'Lexend', sans-serif;
+    font-family: none;
   }
 }
 
