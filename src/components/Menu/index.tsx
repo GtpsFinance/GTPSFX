@@ -206,7 +206,7 @@ export default function Menu() {
       {/* https://github.com/DefinitelyTyped/DefinitelyTyped/issues/30451*/}
       <StyledMenuDesktop ref={node as any} isStaking={isStaking}>
         <MenuItem id="link" href={'https://gtpsfinance.org'}>
-          GtpsFinance.org
+          Gtpsfinance.org
         </MenuItem>
         <MenuItem id="link" href={'https://gtps.finance'}>
           Gtps.Finance
@@ -265,11 +265,11 @@ export default function Menu() {
 
         {open && (
           <MenuFlyout isStaking={isStaking}>
-            <MenuItem id="link" href={'https://gtps.finance.org'}>
-              Gtpsfinance.org
+            <MenuItem id="link" href={'https://gtpsfinance.org'}>
+              gtpsfinance.org
             </MenuItem>
             <MenuItem id="link" href={'https://gtpsfinance.org'}>
-              GtpsFinance.org
+              gtpsfinance.org
             </MenuItem>
             <MenuItem id="link" href={'https://github.com/GtpsFinance'}>
               <Code size={14} />

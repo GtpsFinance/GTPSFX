@@ -392,7 +392,7 @@ const BridgeButton = styled.div`
 const BridgePopoverInner = styled.div`
   padding: 10px;
   overflow: hidden;
-  background: ${({ theme }) => theme.text1};
+  background: #2c1366;
 `
 
 const BridgeLinkWrapper = styled.div`
@@ -576,7 +576,7 @@ export default function Header() {
       </Modal>
       <HeaderRow>
         <Title href=".">
-          GTPS<span>FX</span>
+          GTPS<span>FINANCE</span>
         </Title>
         <MobileHeader>
           <HeaderLinks>
@@ -600,7 +600,7 @@ export default function Header() {
             </Column>
             <Column>
               <StyledNavLink id={`xfate-nav-link`} to={`/xFATE`}>
-                xFATE
+                GFI
               </StyledNavLink>
               {/*<StyledNavLink id={`vote-nav-link`} to={`${'/vote'}`}>*/}
               {/*  Vote*/}
@@ -631,7 +631,7 @@ export default function Header() {
               {t('swap')}
             </StyledNavLink>
             <StyledNavLink id={`xfate-nav-link`} to={`/xFATE`}>
-              xFATE
+              GFI
             </StyledNavLink>
             {/*<StyledNavLink id={`vote-nav-link`} to={`${'/vote'}`}>*/}
             {/*  Vote*/}
