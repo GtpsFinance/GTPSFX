@@ -76,7 +76,7 @@ const OptionCustom = styled(FancyButton)<{ active?: boolean; warning?: boolean }
     border: 0px;
     border-radius: 8px;
     background: rgba(13 11 177);
-    color: rgba(0 0 0);
+    color: rgba(255 255 255);
 
     :hover {
       color: ${({ theme }) => theme.text6};
