@@ -332,7 +332,7 @@ export const StyledMenuButton = styled.button`
   margin-right: 8px;
 
   :hover {
-    color: ${({ theme }) => theme.text6}
+    color: rgb(13 11 177);
     background-color: ${({ theme }) => theme.bg6};
 
     svg {
