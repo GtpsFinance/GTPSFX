@@ -7,8 +7,8 @@ const StyledInput = styled.input<{ error?: boolean; fontSize?: string; align?: s
   width: 0;
   position: relative;
   font-weight: 500;
-  outline: none;
-  border: none;
+  outline: rgb(237 238 242);
+  border: ;
   flex: 1 1 auto;
   background-color: rgba(13 11 177);
   font-size: ${({ fontSize }) => fontSize ?? '24px'};
